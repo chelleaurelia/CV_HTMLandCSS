@@ -1,0 +1,324 @@
+.landingPage
+{
+	height: 100%;
+	background-image: url(landingpage1.jpg);
+	background-size: cover;
+	overflow: auto;
+	border-radius: 10px;
+	animation-name: LANDING;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes LANDING
+{
+	0%
+	{
+		background-image: url(landingpage1.jpg);
+		background-size: cover;
+		overflow: auto;
+		border-radius: 5px;
+	}
+	25%
+	{
+		background-image: url(landingpage2.jpg);
+		background-size: cover;
+		overflow: auto;
+		border-radius: 5px;
+	}
+	50%
+	{
+		background-image: url(landingpage3.jpg);
+		background-size: cover;
+		overflow: auto;
+		border-radius: 5px;
+	}
+	75%
+	{
+		background-image: url(landingpage4.jpg);
+		background-size: cover;
+		overflow: auto;
+		border-radius: 5px;
+	}
+	100%
+	{
+		background-image: url(landingpage1.jpg);
+		background-size: cover;
+		overflow: auto;
+		border-radius: 5px;
+	}
+}
+
+.landingIcon
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	border-radius: 100%;
+	text-align: center;
+}
+
+.profilePage
+{
+	margin-top: 10px;
+	font-size: 20px;
+	background-color: #EFD9D1;
+	border-radius: 10px;
+}
+
+.profilePicture
+{
+	display: block;
+	height: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 3%;
+	border-radius: 100%;
+	text-align: center;
+	float: left;
+}
+
+.profileContent
+{
+	overflow: auto;
+	background-color: #DDB7AB;
+	letter-spacing: 2px;
+	border: 5px;
+	margin-left: 100px;
+	border-radius: 10px;
+	padding-right: 3px;
+}
+
+.profileInfo
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 28px;
+	font-family: "Garamond";
+	color: #1C4A47;
+	border-radius: 50px;
+	text-align: center;
+	list-style: none;
+}
+
+.skillsPage
+{
+	margin-top: 10px;
+	background-color: #EFD9D1;
+	border-radius: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+}
+
+.skillsTitle
+{
+	padding-top: 5%;
+	text-align: center;
+	font-family: "Garamond";
+	color: #1C4A47;
+}
+
+.skillName
+{
+	margin-top: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	overflow: auto;
+	font-family: "Garamond";
+	font-size: 150%;
+	letter-spacing: 3px;
+	color: #650F1E;
+	border-radius: 10px;
+}
+
+.englishBar
+{
+	background: #F4EEED;
+	font-family: "Garamond";
+	color: #1C4A47;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border-radius: 10px;
+	margin-left: 5px;
+	filter: blur(10px);
+	transition-duration: 2s;
+}
+
+.englishBar:hover
+{
+	text-align: center;
+	width: 90%;
+	filter: blur(0px);
+}
+
+.HTMLBar
+{
+	background: #F4EEED;
+	font-family: "Garamond";
+	color: #1C4A47;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border-radius: 10px;
+	margin-left: 5px;
+	filter: blur(10px);
+	transition-duration: 2s;
+}
+
+.HTMLBar:hover
+{
+	text-align: center;
+	width: 80%;
+	filter: blur(0px);
+}
+
+.CSSBar
+{
+	background: #F4EEED;
+	font-family: "Garamond";
+	color: #1C4A47;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border-radius: 10px;
+	margin-left: 5px;
+	filter: blur(10px);
+	transition-duration: 2s;
+}
+
+.CSSBar:hover
+{
+	text-align: center;
+	width: 80%;
+	filter: blur(0px);
+}
+
+.SQLBar
+{
+	background: #F4EEED;
+	font-family: "Garamond";
+	color: #1C4A47;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border-radius: 10px;
+	margin-left: 5px;
+	filter: blur(10px);
+	transition-duration: 2s;
+}
+
+.SQLBar:hover
+{
+	text-align: center;
+	width: 70%;
+	filter: blur(0px);
+}
+
+.adobeBar
+{
+	background: #F4EEED;
+	font-family: "Garamond";
+	color: #1C4A47;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	padding-left: 30px;
+	padding-top: 20px;
+	border-radius: 10px;
+	margin-left: 5px;
+	filter: blur(10px);
+	transition-duration: 2s;
+}
+
+.adobeBar:hover
+{
+	text-align: center;
+	width: 80%;
+	filter: blur(0px);
+}
+
+.experiencePage
+{
+	margin-top: 20px;
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+	font-size: 20px;
+	background-color: #1C4A47;
+	border-radius: 10px;
+}
+
+.experienceTitle
+{
+	text-align: center;
+	font-family: "Garamond";
+	color: #EFD9D1;
+}
+
+.experienceContainer
+{
+	margin-top: 5px;
+	background-color: #EFD9D1;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	font-family: "Garamond";
+	color: #650F1E;
+	line-height: 1px;
+}
+
+.contactPage
+{
+	margin-top: 20px;
+	padding-top: 1%;
+	background-color: #DDB7AB;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.contactTitle
+{
+	text-align: center;
+	font-family: "Garamond";
+	color: #1C4A47;
+}
+
+.contactList
+{
+	list-style-type: none;
+	float: left;
+	margin-left: 73px;
+	padding-left: 50px;
+	font-size: 20px;
+	font-family: "Garamond";
+	color: #1C4A47;
+	font-weight: 900;
+	text-align: center;
+}
+
+.contactList2
+{
+	list-style-type: none;
+	float: left;
+	margin-left: 73px;
+	padding-left: 50px;
+	font-size: 20px;
+	font-family: "Garamond";
+	color: #1C4A47;
+	font-weight: 900;
+	text-align: center;
+}
